@@ -68,3 +68,39 @@ export default function Home() {
     </div>
   );
 }
+
+
+{/* 
+<!--
+///recipe tsx type RecipeCardProps = {
+  name: string;
+  image: string;
+  protein: number;
+  time: number;
+};
+
+export default function RecipeCard({
+  name,
+  image,
+  protein,
+  time,
+}: RecipeCardProps) {
+  return (
+    <div className="overflow-hidden rounded-3xl bg-white shadow-sm">
+      <img
+        src={image}
+        alt={name}
+        className="h-56 w-full object-cover"
+      />
+
+      <div className="p-5">
+        <h3 className="text-xl font-semibold">{name}</h3>
+
+        <div className="mt-3 flex gap-4 text-sm text-gray-500">
+          <span>💪 {protein}g protein</span>
+          <span>⏱️ {time} min</span>
+        </div>
+      </div>
+    </div>
+  );
+} */}
